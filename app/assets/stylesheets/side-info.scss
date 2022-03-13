@@ -1,0 +1,14 @@
+$purple: #6a5df8;
+$purple-light: #e4e9f7;
+$gray: #85807f;
+$dark-gray: #3a3736;
+
+#side-info-container {
+  position: sticky;
+  min-width: 300px;
+  height: 100vh;
+  min-height: 100%;
+  top: 0;
+  right: 0;
+  background-color: white;
+}

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import SideNav from './sidenav';
 import Navbar from './navbar';
 import MainContent from './main-content';
+import SideInfo from './side-info';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Navbar />
         <MainContent />
       </div>
+      <SideInfo />
     </div>
   );
 };

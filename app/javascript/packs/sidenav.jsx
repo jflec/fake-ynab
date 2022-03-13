@@ -9,6 +9,9 @@ const SideNav = (props) => {
   return (
     <div id="side-nav-container">
       <div id="side-nav">
+        <div id="logo">
+          <h1>clarity</h1>
+        </div>
         <div id="side-nav-user-info-container">
           <div id="side-nav-user-info">
             <h1>Joseph Felicidario</h1>

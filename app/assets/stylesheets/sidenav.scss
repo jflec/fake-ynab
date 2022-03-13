@@ -26,6 +26,19 @@ $dark-gray: #3a3736;
   color: $gray;
 }
 
+#logo {
+  position: relative;
+  width: calc(100% + 4px);
+  font-size: 32px;
+  background-color: $purple;
+  color: white;
+  font-weight: 600;
+}
+
+#logo h1 {
+  padding: 12px;
+}
+
 #side-nav-user-info-container {
   background-color: $purple;
   display: flex;

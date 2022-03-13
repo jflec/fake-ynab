@@ -1,0 +1,16 @@
+$purple: #6a5df8;
+$purple-light: #e4e9f7;
+$gray: #85807f;
+
+body {
+  background-color: $purple-light;
+}
+
+button {
+  border: none;
+  margin: inherit;
+  padding: inherit;
+  background-color: transparent;
+  font: inherit;
+  color: inherit;
+}

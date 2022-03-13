@@ -1,6 +1,7 @@
 $purple: #6a5df8;
 $purple-light: #e4e9f7;
 $gray: #85807f;
+$dark-gray: #3a3736;
 
 body {
   background-color: $purple-light;
@@ -13,4 +14,19 @@ button {
   background-color: transparent;
   font: inherit;
   color: inherit;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $purple;
 }

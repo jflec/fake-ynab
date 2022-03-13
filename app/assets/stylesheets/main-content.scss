@@ -1,0 +1,100 @@
+$purple: #6a5df8;
+$purple-light: #e4e9f7;
+$gray: #85807f;
+$dark-gray: #3a3736;
+
+#main-content-container {
+  position: relative;
+  margin: 20px 0;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  font-family: 'Poppins', sans-serif;
+  color: $gray;
+  border-radius: 12px;
+}
+
+#table-header {
+  position: relative;
+  border-bottom: 1px solid $purple-light;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 12px;
+}
+
+#create-category {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  padding: 12px;
+  background-color: $purple;
+  gap: 6px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+#table-undo-redo {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.undo-redo {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  padding: 12px;
+  background-color: $purple;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+#main-content-table {
+  position: relative;
+  width: 100%;
+}
+
+.main-content-header-container th {
+  padding: 16px;
+  font-weight: 600;
+}
+
+.category-header {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.category-header td {
+  font-weight: 400;
+  background-color: $purple;
+  color: white;
+  text-align: center;
+  padding: 16px;
+}
+
+.category-item {
+  border-bottom: 1px solid $purple-light;
+  transition: 0.025s;
+  text-align: center;
+}
+
+.category-item td {
+  padding: 16px;
+  font-weight: 400;
+}
+
+.category-item:hover {
+  transition: 0.025s;
+  color: $dark-gray;
+  background-color: $purple-light;
+}

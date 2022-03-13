@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import ReactDOM from 'react-dom';
 import SideNavBudget from './sidenav-budget';
 import SideNavLinks from './sidenav-tabs';
 
@@ -45,9 +44,4 @@ const SideNav = (props) => {
   );
 };
 
-document.addEventListener('DOMContentLoaded', () => {
-  ReactDOM.render(
-    <SideNav />,
-    document.body.appendChild(document.createElement('div'))
-  );
-});
+export default SideNav;
